@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/iyf-s10-week-08-dollagraceambwaya-commits/",
+  base: "/iyf-s10-week-08-dollagraceambwaya-commits/", // 👈 must match your repo name
 });
